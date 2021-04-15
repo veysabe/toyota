@@ -1,0 +1,22 @@
+.header {
+    background-color: white;
+}
+
+.header-content {
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .phone {
+        font-size: 18px;
+        line-height: 22px;
+        color: #282828;
+        a {
+            text-decoration: none;
+            color: #282828;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}

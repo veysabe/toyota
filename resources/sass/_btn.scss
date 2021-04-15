@@ -1,0 +1,14 @@
+.btn {
+    padding: 11px 40px;
+    border-radius: 30px;
+}
+
+.btn-danger {
+    background-color: $red;
+    min-width: 220px;
+}
+
+.btn-outline-light {
+    color: $textgray;
+    border: 1px solid $textgray;
+}

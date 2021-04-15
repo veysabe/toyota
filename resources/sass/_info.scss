@@ -1,0 +1,25 @@
+.info-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    .info-block-text {
+        font-size: 16px;
+        line-height: 150%;
+        color: #000000;
+        font-weight: 400;
+        text-align: justify;
+        margin-bottom: 30px;
+        @media  (max-width: 425px){
+            font-size: 14px;
+            margin-bottom: 13px;
+        }
+
+    }
+
+    .info-block-mini-text {
+        font-size: 12px;
+        line-height: 135%;
+        color: $textgray;
+    }
+}

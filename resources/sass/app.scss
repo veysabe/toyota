@@ -1,0 +1,29 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+@media (min-width: 1300px) {
+    .container {
+        max-width: 1300px;
+    }
+}
+
+body {
+    position: relative;
+    height: 100vh;
+}
+
+// Header
+@import "header";
+@import "main";
+@import "info";
+@import "steps";
+@import "form";
+@import "btn";
+@import "footer";

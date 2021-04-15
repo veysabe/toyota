@@ -1,0 +1,36 @@
+.steps {
+    .steps-text {
+        padding: 17px 0;
+        font-size: 18px;
+        line-height: 22px;
+        color: $textgray;
+        font-weight: 300;
+        * {
+            transition: .3s all ease-in-out;
+        }
+        @media  (max-width: 1024px){
+            font-size: 12px;
+            padding: 4px 0 7px 0;
+        }
+    }
+
+    .opacity-0 {
+        opacity: 0;
+    }
+
+    .steps-progress {
+        width: 100%;
+        height: 2px;
+        background-color: $textgray;
+        position: relative;
+        &-value {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 2px;
+            width: 0;
+            background-color: $red;
+            transition: .3s all ease-in-out;
+        }
+    }
+}
