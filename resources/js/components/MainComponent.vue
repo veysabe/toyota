@@ -98,9 +98,10 @@
                 <div class="done-modal">
                     <div class="modal-title">Готово! :)</div>
                     <div class="modal-text">
-                        Вы забронировали тест-драйв {{ currentCar.name }}<br>
-                        Пожалуйста, запомните
-                        <br>или запишите информацию ниже
+                        Вы забронировали тест-драйв
+                        <br>{{ currentCar.name }}
+                        <br>Пожалуйста, запомните
+                        <br>или запишите информацию ниже.
                     </div>
                     <div class="modal-info">
                         <div class="modal-info-item">
