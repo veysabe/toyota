@@ -41,7 +41,7 @@
                             <div v-if="this.step === 2">
                                 <div class="time-select">
                                     <label class="time" v-for="time in times"
-                                           v-bind:class="{'disabled' : time.booked === '1'}">
+                                           v-bind:class="{'disabled' : time.booked === 1}">
                                         <input type="radio" name="select-time" v-bind:value="time.id"
                                                v-model="form.time" @change="selected_time_name = time.name" v-if="time.booked !== '1'">
                                         <div class="fake-radio-tab">
