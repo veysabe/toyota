@@ -7,7 +7,9 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Запишитесь на тест-драйв новой Toyota Camry</title>
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -43,7 +45,7 @@
         <div class="container">
             <p>Дата проведения: 24 апреля 2021 года с 12:00 до 16:00</p>
             <p>Место проведения: г. Тамбов, ул. Киквидзе 69а</p>
-            <p>Продолжительность: тест-драйва 20 минут</p>
+            <p>Продолжительность тест-драйва: 15 минут</p>
         </div>
     </footer>
 </div>

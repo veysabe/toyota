@@ -23,6 +23,17 @@
 </head>
 <body>
 <div id="app">
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <img src="img/logo.png" alt="">
+                <div class="phone">
+                    <a href="tel:+74752456000"><img src="img/phone.png" alt="">
+                        <span>+7 4752 456 000</span></a>
+                </div>
+            </div>
+        </div>
+    </header>
     <main class="py-4">
         @yield('content')
     </main>

@@ -96,9 +96,11 @@
         <transition name="slide-fade">
             <div class="done-modal-overflow" v-if="done">
                 <div class="done-modal">
-                    <div class="modal-title">Почти готово...</div>
+                    <div class="modal-title">Готово! :)</div>
                     <div class="modal-text">
-                        Осталось только подтвердить почту. Сделайте это в течении 15 минут, иначе бронь будет отменена.
+                        Вы забронировали тест-драйв {{ currentCar.name }}<br>
+                        Пожалуйста, запомните
+                        <br>или запишите информацию ниже
                     </div>
                     <div class="modal-info">
                         <div class="modal-info-item">

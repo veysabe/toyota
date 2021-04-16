@@ -17,11 +17,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-//         \App\Models\User::create([
-//             'name' => 'Администратор',
-//             'email' => 'admin@newcamry.ru',
-//             'password' => Hash::make('RuMc2Fky')
-//         ]);
+         \App\Models\User::create([
+             'name' => 'Администратор',
+             'email' => 'admin@newcamry.ru',
+             'password' => Hash::make('RuMc2Fky')
+         ]);
         Car::create([
             'name' => 'Toyota Camry 2.5',
             'info_one' => '6,8 л/100 км',

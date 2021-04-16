@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Apply;
 use Illuminate\Http\Request;
 
 class AdminController extends Controller
@@ -13,6 +14,7 @@ class AdminController extends Controller
 
     public function index()
     {
-        dd(123);
+        $applies = Apply::all();
+        return view('admin', compact('applies'));
     }
 }

@@ -13,4 +13,9 @@ class Time extends Model
     {
         return $this->belongsTo(Car::class);
     }
+
+    public function apply()
+    {
+        return $this->hasOne(Apply::class);
+    }
 }
