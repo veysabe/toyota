@@ -3,7 +3,14 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="2b25b70b-87d8-4d15-86ff-4557f9a0f930" name="toyota" url="http://31.31.196.186">
-        <fileTransfer rootFolder="/www" host="31.31.196.186" port="21">
+        <fileTransfer host="31.31.196.186" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="42bd95da-4352-4395-b9b2-274a233a7701" name="digital_ocean_2" url="http://newcamry.ru">
+        <fileTransfer accessType="SFTP" host="159.65.198.119" port="22" sshConfigId="6418f0b6-4281-4959-9aa8-206c9b13548a" sshConfig="root@159.65.198.119:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

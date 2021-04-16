@@ -22,6 +22,18 @@ class DatabaseSeeder extends Seeder
 //             'email' => 'admin@newcamry.ru',
 //             'password' => Hash::make('RuMc2Fky')
 //         ]);
+        Car::create([
+            'name' => 'Toyota Camry 2.5',
+            'info_one' => '6,8 л/100 км',
+            'info_two' => '210 км/ч',
+            'info_three' => '8,7 сек',
+            ]);
+        Car::create([
+            'name' => 'Toyota Camry 3.5',
+            'info_one' => '8,7 л/100 км',
+            'info_two' => '220 км/ч',
+            'info_three' => '7,7 км/ч',
+        ]);
         $start_time = Carbon::create(null, null, null, 12, 0, 0);
         $end_time = Carbon::create(null, null, null, 16, 0, 0);
         $gap = 15;
