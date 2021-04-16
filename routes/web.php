@@ -26,6 +26,8 @@ Auth::routes(['register' => false]);
 
 Route::get('/admin', [\App\Http\Controllers\AdminController::class, 'index']);
 
+Route::get('/delete-apply/{apply}', [\App\Http\Controllers\Api\v1\AppliesController::class, 'destroy']);
+
 Route::get('/{any}', function () {
     return view('home');
 })->where('any', '.*');

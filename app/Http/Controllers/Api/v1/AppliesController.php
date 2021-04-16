@@ -104,6 +104,11 @@ class AppliesController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $apply = Apply::find($id);
+        $time = $apply->time;
+        $time->booked = false;
+        $time->save();
+        $apply->delete();
+        return redirect('/admin');
     }
 }

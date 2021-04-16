@@ -28,7 +28,7 @@
     <header class="header">
         <div class="container">
             <div class="header-content">
-                <img src="img/logo.png" alt="">
+                <img src="img/logo.png" alt="" width="64" height="40">
                 <div class="phone">
                     <a href="tel:+74752456000"><img src="img/phone.png" alt="">
                         <span>+7 4752 456 000</span></a>

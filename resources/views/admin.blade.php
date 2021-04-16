@@ -13,6 +13,9 @@
                         <p>Имя - <b>{{ $apply->name . ' ' . $apply->last_name }}</b></p>
                         <p>Телефон - <b>{{ $apply->phone }}</b></p>
                         <p>E-mail - <b>{{ $apply->email }}</b></p>
+                        <div class="mt-5">
+                            <a href="/delete-apply/{{ $apply->id }}" class="btn btn-danger">Удалить заявку</a>
+                        </div>
                     </div>
                 </div>
             @endforeach
