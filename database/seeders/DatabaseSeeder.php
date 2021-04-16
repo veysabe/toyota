@@ -32,7 +32,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'Toyota Camry 3.5',
             'info_one' => '8,7 л/100 км',
             'info_two' => '220 км/ч',
-            'info_three' => '7,7 км/ч',
+            'info_three' => '7,7 сек',
         ]);
         $start_time = Carbon::create(null, null, null, 12, 0, 0);
         $end_time = Carbon::create(null, null, null, 16, 0, 0);

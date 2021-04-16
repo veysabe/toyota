@@ -19,13 +19,7 @@ use Illuminate\Database\Schema\Blueprint;
 */
 
 Route::get('/test', function () {
-    $apply = new Apply();
-    $apply->name = '123';
-    $apply->last_name = '321';
-    $apply->phone = '123';
-    $apply->email = '123';
-    $apply->time_id = 3;
-    $apply->save();
+
 });
 
 Auth::routes(['register' => false]);
