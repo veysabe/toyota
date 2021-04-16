@@ -13,11 +13,6 @@
                         <p>Имя - <b>{{ $apply->name . ' ' . $apply->last_name }}</b></p>
                         <p>Телефон - <b>{{ $apply->phone }}</b></p>
                         <p>E-mail - <b>{{ $apply->email }}</b></p>
-                        @if (!$apply->email_verified)
-                            <p class="text-danger font-weight-bold">Не подтверждено</p>
-                        @else
-                            <p class="text-success font-weight-bold">Подтверждено</p>
-                        @endif
                     </div>
                 </div>
             @endforeach
