@@ -186,6 +186,7 @@ export default {
                     axios.post('/api/times', {
                         body: this.currentCar
                     }).then(res => {
+                        console.log(res.data);
                         this.times = res.data;
                     })
                 }
